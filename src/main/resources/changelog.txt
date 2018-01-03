@@ -1,0 +1,69 @@
+v4.0.0
+	Update to 1.12.2. Yay!
+	New possible block options for ore sheep (portals, sugarcane etc).
+	Now Linux compatible!
+	Drawing texures for ore sheep is much faster.
+	Added config and server command to enable "ignore mob griefing game rule." Command is /ignoreGameRuleMobGriefing (true/false)
+	Server to client communication is better (no more despawns or sheep ore changes on server unload).
+	An incorrect tool used on sheep makes breaking sound (ex: pickaxe on wood ore sheep makes break sound)
+	Shears no longer break when used on ore sheep.
+	Sheep converted to ore sheep now keep potion effects and name tags.
+	Remember "jeb_"? Try "Icedice9"
+	Log file is more descriptive.
+	Removed debug mode.
+v3.1.0
+	Rewrote the system for determining how many sub-blocks a block has. Essentially, this means the mod is faster, more accurate, less resource intensive, and less crashy!
+	There is no longer a lag when looking at an ore sheep for the first time because textures are now drawn when needed, rather than all at once.
+	Revealed debug mode. Add the entry "true" to the top of the OreConfig.txt. Then while in creative mode, right click an ore sheep with:
+		a stick or blaze rod to move through the block array. 
+		an apple to print an its block info. 
+		a bone to load all ore sheep textures again (warning- this may take several seconds!)
+	The mod now detects all ores from the forestry, biomesoplenty, and artifice mods.
+	Fixed some blocks not being sheared by the correct tool. (Blocks with "mud" in their names)
+	Ore Sheep can no longer grow double slabs.
+v3.0.3
+	Fixed some blocks not being sheared by the correct tool. (Blocks with "sand" or "log" in their names)
+	Added more useful info to the log file.
+	TConstruct landmines are now consumed when eaten.
+v3.0.2
+	Fixed a crash with the Artifice Mod.
+	Removed extra log block metadata from array.
+	The log text file now gives more information on bugs (easier for me to fix!)
+v3.0.1
+	Fixed a crash with the Jabba mod (better barrels by Mobius). Sheep do not eat barrels!
+v3.0.0
+	Added the "OreConfig" text file, a configuration file that allows sheep to eat blocks the player specifies.  It can be edited while the client is running, when not in a world.  Servers must be restarted for change to take effect.
+	Sheep can now eat other mod ores and blocks.
+	Added the "PossibleBlocks" text file that shows the player what blocks the sheep can be.
+	Added the "Log" text file.  If the game crashes, or bugs occur, send this file to the oresheepmod author.
+	Sheep must now be sheared with the appropriate tool. You can't shear diamond with a wood pickaxe, dirt related blocks must be sheared with a shovel, wood with an axe, and wool with shears.
+	If in creative mode, the player can use bonemeal on a fully grown sheep to grow back its ore.  If the sheep is a baby, the bonemeal increases its age.
+	Ore sheep now have block dependent sheared textures.
+	Sheared sheep ore can be changed in creative, just like non-sheared sheep.
+	When sheared, sheep make the break sound for the their block instead of the stone breaking sound.
+	Added Spanish language files.
+	Netherrack sheep can now be obtained in survival mode and acts as a regular ore sheep ore by default.
+v2.6
+	Fixed a serious server side crash.
+v2.5
+	Added the netherrack ore sheep.
+	Most other mod pickaxes now shear sheep as well.
+	Sheared ore sheep now have ore splotches instead of wool ones.
+	Ore sheep now use resource pack ore textures for their own textures.  This means that ore sheep will take the appearance of the ores in installed resource packs.
+v2.4
+	Converting a sheep no longer removes its name tag. 
+v2.3
+	Due to popular demand, ore is again genetically inherited.
+	You can now change baby ore type while in creative, just like adults, by right clicking on one with the ore you want.
+	Shears are now damaged when you try to use them on an ore sheep. Ore sheep are rock solid after all!
+	Wool ore sheep can be sheared with shears and drop 1-3 wool.  But how would you get a wool ore sheep anyway?
+	Minor bug fixes and improvements.
+v2.2
+	Breeding two ore sheep now spawns a regular baby sheep.  Ore is no longer genetically inherited :)
+v2.1
+	Removed ore sheep "ghost" client entities.
+v2.0
+	Ore sheep are now bred with many different stone blocks and ores instead of wheat.
+	Ore sheep now also eat netherrack, stone slabs, cobblestone and stone brick stairs, stone bricks, stone buttons, stone pressure plates, mossy cobblestone, and cobblestone walls.
+v1.0:
+	Added ore sheep!

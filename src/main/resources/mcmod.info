@@ -1,0 +1,16 @@
+[
+{
+  "modid": "oresheepmod",
+  "name": "Ore Sheep",
+  "description": "This mod adds ore sheep. Convert regular sheep to grow ore!",
+  "version": "4.0.0",
+  "mcversion": "1.12.2",
+  "url": "https://sites.google.com/site/auraofzephyr/mods/ore-sheep-mod",
+  "updateUrl": "",
+  "authorList": ["Icedice9"],
+  "credits": "Codded and textured by Icedice9.",
+  "logoFile": "oresheep-logo3.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
