@@ -1,4 +1,5 @@
-# Ore Sheep [![Curseforge](http://cf.way2muchnoise.eu/full_ore-sheep-mod_downloads.svg)](https://minecraft.curseforge.com/projects/ore-sheep-mod)
+# Ore Sheep [![Curseforge](https://cf.way2muchnoise.eu/full_226876_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/ore-sheep-mod)
+
 This mod adds ore sheep. Convert regular sheep to grow ore!
 
 ## Issue reporting
